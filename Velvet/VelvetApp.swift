@@ -11,8 +11,7 @@ import SwiftUI
 struct VelvetApp: App {
     var body: some Scene {
         WindowGroup {
-            
-            //m 
+            // TEST
             ContentView()
         }
     }

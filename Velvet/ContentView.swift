@@ -8,7 +8,7 @@
 import SwiftUI
 import Firebase
 import FirebaseFirestore
-
+//hello guys
 struct ClassData: Identifiable {
     var id: UUID
     var classroomNumber: String
@@ -16,7 +16,7 @@ struct ClassData: Identifiable {
     var status: String // Use String for status
 }
 
-
+ 
 struct EmployeeCheckinView: View {
     @State private var classData: [ClassData] = []
     @State private var newClassroomNumber = ""

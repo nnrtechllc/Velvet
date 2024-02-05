@@ -12,6 +12,8 @@ struct VelvetApp: App {
     var body: some Scene {
         WindowGroup {
             // TEST BLBLBLBLB awBBBBBB100
+            
+            
             ContentView()
         }
     }

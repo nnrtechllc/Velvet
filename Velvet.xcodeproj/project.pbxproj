@@ -35,6 +35,7 @@
 		0B93E2802B7063DD00B099B2 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0B93E27F2B7063DD00B099B2 /* FirebaseRemoteConfigSwift */; };
 		0B93E2822B7063DD00B099B2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0B93E2812B7063DD00B099B2 /* FirebaseStorage */; };
 		0B93E2842B7063DD00B099B2 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 0B93E2832B7063DD00B099B2 /* FirebaseStorageCombine-Community */; };
+		0B93E2882B70687F00B099B2 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93E2872B70687F00B099B2 /* Login.swift */; };
 		0BCEEE3C2B7030B2000520A4 /* VelvetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCEEE3B2B7030B2000520A4 /* VelvetApp.swift */; };
 		0BCEEE3E2B7030B2000520A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCEEE3D2B7030B2000520A4 /* ContentView.swift */; };
 		0BCEEE402B7030B4000520A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BCEEE3F2B7030B4000520A4 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		0B93E1D92B70434800B099B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0B93E2872B70687F00B099B2 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		0BCEEE382B7030B2000520A4 /* Velvet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Velvet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BCEEE3B2B7030B2000520A4 /* VelvetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelvetApp.swift; sourceTree = "<group>"; };
 		0BCEEE3D2B7030B2000520A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			children = (
 				0BCEEE3B2B7030B2000520A4 /* VelvetApp.swift */,
 				0BCEEE3D2B7030B2000520A4 /* ContentView.swift */,
+				0B93E2872B70687F00B099B2 /* Login.swift */,
 				0BCEEE3F2B7030B4000520A4 /* Assets.xcassets */,
 				0B93E1D92B70434800B099B2 /* GoogleService-Info.plist */,
 				0BCEEE412B7030B4000520A4 /* Preview Content */,
@@ -227,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B93E2882B70687F00B099B2 /* Login.swift in Sources */,
 				0BCEEE3E2B7030B2000520A4 /* ContentView.swift in Sources */,
 				0BCEEE3C2B7030B2000520A4 /* VelvetApp.swift in Sources */,
 			);

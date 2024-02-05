@@ -21,7 +21,7 @@ struct Velvet: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EmployeeCheckinView()
         }
     }
 }

@@ -40,6 +40,8 @@
 		0BCEEE3E2B7030B2000520A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCEEE3D2B7030B2000520A4 /* ContentView.swift */; };
 		0BCEEE402B7030B4000520A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BCEEE3F2B7030B4000520A4 /* Assets.xcassets */; };
 		0BCEEE432B7030B4000520A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BCEEE422B7030B4000520A4 /* Preview Assets.xcassets */; };
+		95EFB6902B77F4A600EB94D4 /* JobHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EFB68F2B77F4A600EB94D4 /* JobHome.swift */; };
+		95EFB6922B77F4B100EB94D4 /* JobDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EFB6912B77F4B100EB94D4 /* JobDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		0BCEEE3D2B7030B2000520A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0BCEEE3F2B7030B4000520A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BCEEE422B7030B4000520A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95EFB68F2B77F4A600EB94D4 /* JobHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHome.swift; sourceTree = "<group>"; };
+		95EFB6912B77F4B100EB94D4 /* JobDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				0BCEEE3B2B7030B2000520A4 /* VelvetApp.swift */,
 				0BCEEE3D2B7030B2000520A4 /* ContentView.swift */,
 				0B93E2872B70687F00B099B2 /* Login.swift */,
+				95EFB68F2B77F4A600EB94D4 /* JobHome.swift */,
+				95EFB6912B77F4B100EB94D4 /* JobDetailView.swift */,
 				0BCEEE3F2B7030B4000520A4 /* Assets.xcassets */,
 				0B93E1D92B70434800B099B2 /* GoogleService-Info.plist */,
 				0BCEEE412B7030B4000520A4 /* Preview Content */,
@@ -230,8 +236,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95EFB6902B77F4A600EB94D4 /* JobHome.swift in Sources */,
 				0B93E2882B70687F00B099B2 /* Login.swift in Sources */,
 				0BCEEE3E2B7030B2000520A4 /* ContentView.swift in Sources */,
+				95EFB6922B77F4B100EB94D4 /* JobDetailView.swift in Sources */,
 				0BCEEE3C2B7030B2000520A4 /* VelvetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
